@@ -32,7 +32,7 @@ Each pattern includes:
         ├── <tests>.py  # ex. tests
         └── use_cases
             ├── __init__.py
-            └── <use_case>.py  # ex. use_case_1
+            └── <use_case>.py  # ex. proxy
 ```
 
 ---
@@ -40,7 +40,7 @@ Each pattern includes:
 ## 📚 Pattern Checklist
 
 ### 🔧 Creational Patterns
-- [ ] Singleton
+- [X] Singleton
 - [ ] Factory Method
 - [ ] Abstract Factory
 - [ ] Builder
@@ -85,12 +85,11 @@ Each design pattern is organized in its own subfolder under one of the following
 └── creational
     └── singleton
 ```
-Simply browse through these folders to explore the implementations.
-For example:
+To treat pattern directories as Python source, you can add the following lines to your shell (e.g., bash):
 ```bash
-cd creational/singleton
-python singleton.py
+export PYTHONPATH=$(pwd):$PYTHONPATH
 ```
+This will allow you to import the pattern files directly and run them.
 
 ### 3. Run test (optional)
 This project uses pytest for unit testing. To run all tests:
