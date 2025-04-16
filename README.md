@@ -41,7 +41,7 @@ Each pattern includes:
 
 ### 🔧 Creational Patterns
 - [X] Singleton
-- [ ] Factory Method
+- [X] Factory Method
 - [ ] Abstract Factory
 - [ ] Builder
 - [ ] Prototype
